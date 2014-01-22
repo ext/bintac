@@ -4,13 +4,13 @@ Usage: `bintac FILES..`
 
 ## Example
 
-  % cat test
-  foo
-  bar
-  abc
-  % bintac test | hexdump -C
-  00000000  0a 0a 63 62 61 0a 72 61  62 0a 6f 6f 66           |..cba.rab.oof|
-  0000000d
+    % cat test
+    foo
+    bar
+    abc
+    % bintac test | hexdump -C
+    00000000  0a 0a 63 62 61 0a 72 61  62 0a 6f 6f 66           |..cba.rab.oof|
+    0000000d
 
 ## TODO
 
